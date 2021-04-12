@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('welcome');
 });
-Route::get('/front', [App\Http\Controllers\FrontControoller::class, 'index'])->name('front');
+Route::get('/', [App\Http\Controllers\FrontControoller::class, 'index'])->name('front');
 
 Route::get('detail/{id}', [App\Http\Controllers\FrontControoller::class, 'detail'])->name('detail');
 
