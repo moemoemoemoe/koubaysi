@@ -180,9 +180,9 @@ Bee Young For Health Beauty And 3assilBee Young For Health Beauty And 3assilBee 
               <img src="{{asset('uploads/products/'.$prod->image)}}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>{{$prod->name}}</h4>
-                <p>{{$prod->description}}</p>
+              <!--   <p>{{$prod->description}}</p> -->
                 <div class="portfolio-links">
-                  <a href="{{asset('uploads/products/'.$prod->image)}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="{{$prod->name}}"><i class="bi bi-plus"></i></a>
+                  <a href="{{asset('uploads/products/'.$prod->image)}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="{{$prod->description}}"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
